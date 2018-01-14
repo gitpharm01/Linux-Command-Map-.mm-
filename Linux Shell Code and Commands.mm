@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linux Shell Code and Commands" FOLDED="false" ID="ID_963954836" CREATED="1513058744765" MODIFIED="1515816512780" BACKGROUND_COLOR="#cccccc" STYLE="oval">
 <font SIZE="12"/>
-<hook NAME="MapStyle" background="#999999" zoom="1.795">
+<hook NAME="MapStyle" background="#999999" zoom="1.5">
     <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -520,11 +520,56 @@
 </node>
 </node>
 </node>
-<node TEXT="zip files" ID="ID_978830076" CREATED="1513085555808" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="zip files" FOLDED="true" ID="ID_978830076" CREATED="1513085555808" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
+<node TEXT="gzip" FOLDED="true" ID="ID_1656558477" CREATED="1515918674146" MODIFIED="1515918714835" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="Turn a FILE into a ZIPFILE(FILE will be deleted)" FOLDED="true" ID="ID_260929743" CREATED="1515918715985" MODIFIED="1515918853166" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="gzip FILE" ID="ID_424367877" CREATED="1515918862583" MODIFIED="1515918913403" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
-<node TEXT="Tarball files" ID="ID_1726984582" CREATED="1513085611032" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+</node>
+<node TEXT="Make ZIPFILE and preserve original FILE" FOLDED="true" ID="ID_982911808" CREATED="1515918917506" MODIFIED="1515918997803" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
+<node TEXT="gzip -c FILE &gt; FILE.gz" ID="ID_1496820778" CREATED="1515918956083" MODIFIED="1515918993995" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Decompress the ZIPFILE(ZIPFILE will be deleted)" FOLDED="true" ID="ID_87537565" CREATED="1515919010338" MODIFIED="1515919149043" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="gzip -d FILE.gz" ID="ID_1359786954" CREATED="1515919069108" MODIFIED="1515919086971" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Decompress the ZIPFILE(preserve original ZIPFILE)" FOLDED="true" ID="ID_582311807" CREATED="1515919159570" MODIFIED="1515919251042" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="gzip -cd FILE.gz &gt; FILE" ID="ID_1332178713" CREATED="1515919194298" MODIFIED="1515919438237" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Tarball files" FOLDED="true" ID="ID_1726984582" CREATED="1513085611032" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="Create tarball and compress with gzip" FOLDED="true" ID="ID_443871603" CREATED="1515919262019" MODIFIED="1515919433765" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="tar -zcv -f FILENAME.tar.gz" ID="ID_258838688" CREATED="1515919384211" MODIFIED="1515919438877" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Inspect content of a Tarball" FOLDED="true" ID="ID_1018600315" CREATED="1515919440803" MODIFIED="1515919489398" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="tar -ztv -f FILENAME.tar.gz" ID="ID_178983881" CREATED="1515919465661" MODIFIED="1515919487213" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Decompress a Tarball" FOLDED="true" ID="ID_1580760341" CREATED="1515919491618" MODIFIED="1515919609483" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="tar -zxy -f filename.tar.bz2 -C TargetDirectory" ID="ID_1152946763" CREATED="1515919552451" MODIFIED="1515919602955" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
 </node>
 <node TEXT="Filesystem Hierarchy Standard" FOLDED="true" ID="ID_1921894134" CREATED="1513822086976" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
@@ -848,98 +893,98 @@
 </node>
 </node>
 <node TEXT="Account Management" FOLDED="true" POSITION="right" ID="ID_1379008310" CREATED="1515815431680" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 <node TEXT="Each user have his own UID&amp;GID.&#xa;They are stored in /etc/passwd" ID="ID_810850067" CREATED="1515815456118" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="Show UID &amp; GID of a USER" FOLDED="true" ID="ID_1300868297" CREATED="1515815541041" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 <node TEXT="id USER" ID="ID_1912639526" CREATED="1515815577979" MODIFIED="1515816508373" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
 </node>
 <node TEXT="The main contents of /etc/passwd" FOLDED="true" ID="ID_1958278035" CREATED="1515815627276" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 <node TEXT="Each row(User) have 7 columns.&#xa;Each column is seperated by &quot; : &quot;" ID="ID_535227656" CREATED="1515815666980" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="1.USER Name" ID="ID_1390906254" CREATED="1515815733113" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="2.Password (now only a &quot; x &quot;)" ID="ID_915596083" CREATED="1515815746847" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="3.UID&#xa;0= root&#xa;1~999=system account(cannot log in to them)&#xa;1000~4294967295=user account for human" ID="ID_705929421" CREATED="1515815771926" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="4.GID" ID="ID_146658183" CREATED="1515815861849" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="5.User description" ID="ID_592912566" CREATED="1515815869505" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="6.Home Directory" ID="ID_331639220" CREATED="1515815882615" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 </node>
 <node TEXT="The main contents of /etc/shadow" FOLDED="true" ID="ID_1854478665" CREATED="1515815937022" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 <node TEXT="Like passwd, each column is also separated by &quot; : &quot;" ID="ID_1342390428" CREATED="1515815966975" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="1.USER Name" ID="ID_1410325003" CREATED="1515816011507" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="2.Password(Hashed)" ID="ID_1301956748" CREATED="1515816029789" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="3.Date of latest modification of the password" ID="ID_1122814439" CREATED="1515816041304" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="4.Days(from 3.)before  the pw can be changed again" ID="ID_1063921276" CREATED="1515816067945" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="5.Days(from 3.)before the pw need to be changed again" ID="ID_10356551" CREATED="1515816102008" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="6.Days(from5.) when user will receive warning for pw renewal" ID="ID_1088448189" CREATED="1515816184838" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="7.Days(from 5.) user can still log in without pw renewal" ID="ID_1043156721" CREATED="1515816219838" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="8.Expiration date of an Account" ID="ID_566276443" CREATED="1515816255807" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="9.Reserved column" ID="ID_541705618" CREATED="1515816273604" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 </node>
 <node TEXT="Show current pw hashing method" FOLDED="true" ID="ID_1831136341" CREATED="1515816294027" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 <node TEXT="authconfig --test | grep hashing" ID="ID_1797125369" CREATED="1515816313730" MODIFIED="1515816508389" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
