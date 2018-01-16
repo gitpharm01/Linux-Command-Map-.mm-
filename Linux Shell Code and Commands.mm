@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linux Shell Code and Commands" FOLDED="false" ID="ID_963954836" CREATED="1513058744765" MODIFIED="1515816512780" BACKGROUND_COLOR="#cccccc" STYLE="oval">
 <font SIZE="12"/>
-<hook NAME="MapStyle" background="#999999" zoom="1.5">
+<hook NAME="MapStyle" background="#999999" zoom="2.0">
     <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -179,7 +179,8 @@
 </node>
 </node>
 </node>
-<node TEXT="File management" FOLDED="true" POSITION="right" ID="ID_1569375292" CREATED="1513081597096" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="File management" FOLDED="true" POSITION="right" ID="ID_1569375292" CREATED="1513081597096" MODIFIED="1516110065418" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="folder"/>
 <font SIZE="10"/>
 <edge COLOR="#00ff00"/>
 <node TEXT="Change file settings" FOLDED="true" ID="ID_1829296055" CREATED="1514205541535" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
@@ -309,7 +310,8 @@
 </node>
 </node>
 </node>
-<node TEXT="find file" FOLDED="true" ID="ID_503476129" CREATED="1514340589985" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="find file" FOLDED="true" ID="ID_503476129" CREATED="1514340589985" MODIFIED="1516109929744" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="xmag"/>
 <font SIZE="10"/>
 <node TEXT="find executable files" FOLDED="true" ID="ID_1519918847" CREATED="1514340610017" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
@@ -358,7 +360,8 @@
 </node>
 </node>
 </node>
-<node TEXT="make directory" FOLDED="true" ID="ID_850355177" CREATED="1513081813216" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="make directory" FOLDED="true" ID="ID_850355177" CREATED="1513081813216" MODIFIED="1516109933244" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="wizard"/>
 <font SIZE="10"/>
 <node TEXT="single layer" FOLDED="true" ID="ID_1958332809" CREATED="1514014721606" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
@@ -379,7 +382,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Remove Directories" FOLDED="true" ID="ID_1686631236" CREATED="1514014956610" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Remove Directories" FOLDED="true" ID="ID_1686631236" CREATED="1514014956610" MODIFIED="1516109946119" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="button_cancel"/>
 <font SIZE="10"/>
 <node TEXT="single layer" FOLDED="true" ID="ID_1149068383" CREATED="1514014968829" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
@@ -394,7 +398,8 @@
 </node>
 </node>
 </node>
-<node TEXT="copy file &amp; directories" FOLDED="true" ID="ID_612169496" CREATED="1514015058220" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="copy file &amp; directories" FOLDED="true" ID="ID_612169496" CREATED="1514015058220" MODIFIED="1516109996214" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="addition"/>
 <font SIZE="10"/>
 <node TEXT="cp" FOLDED="true" ID="ID_1500270870" CREATED="1514015082330" MODIFIED="1515816508358" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
@@ -419,7 +424,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Split Files" FOLDED="true" ID="ID_379770899" CREATED="1515326719490" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Split Files" FOLDED="true" ID="ID_379770899" CREATED="1515326719490" MODIFIED="1516110005542" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="division"/>
 <font SIZE="10"/>
 <node TEXT="split by SIZE" FOLDED="true" ID="ID_112402010" CREATED="1515326727162" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
@@ -440,7 +446,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Remove Files" FOLDED="true" ID="ID_694634646" CREATED="1514205092373" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Remove Files" FOLDED="true" ID="ID_694634646" CREATED="1514205092373" MODIFIED="1516110013792" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="button_cancel"/>
 <font SIZE="10"/>
 <node TEXT="rm" FOLDED="true" ID="ID_1172195658" CREATED="1514205125357" MODIFIED="1515816508358" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
@@ -465,7 +472,8 @@
 </node>
 </node>
 </node>
-<node TEXT="print a file in terminal" FOLDED="true" ID="ID_1557369253" CREATED="1514205233265" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="print a file in terminal" FOLDED="true" ID="ID_1557369253" CREATED="1514205233265" MODIFIED="1516110030652" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="list"/>
 <font SIZE="10"/>
 <node TEXT="cat" FOLDED="true" ID="ID_1260526539" CREATED="1514205281766" MODIFIED="1515816508358" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
@@ -520,7 +528,8 @@
 </node>
 </node>
 </node>
-<node TEXT="zip files" FOLDED="true" ID="ID_978830076" CREATED="1513085555808" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="zip files" FOLDED="true" ID="ID_978830076" CREATED="1513085555808" MODIFIED="1516110050011" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="desktop_new"/>
 <font SIZE="10"/>
 <node TEXT="gzip" FOLDED="true" ID="ID_1656558477" CREATED="1515918674146" MODIFIED="1515918714835" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
@@ -550,7 +559,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Tarball files" FOLDED="true" ID="ID_1726984582" CREATED="1513085611032" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Tarball files" FOLDED="true" ID="ID_1726984582" CREATED="1513085611032" MODIFIED="1516110054043" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="desktop_new"/>
 <font SIZE="10"/>
 <node TEXT="Create tarball and compress with gzip" FOLDED="true" ID="ID_443871603" CREATED="1515919262019" MODIFIED="1515919433765" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
@@ -571,7 +581,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Filesystem Hierarchy Standard" FOLDED="true" ID="ID_1921894134" CREATED="1513822086976" MODIFIED="1515816508358" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Filesystem Hierarchy Standard" FOLDED="true" ID="ID_1921894134" CREATED="1513822086976" MODIFIED="1516110059589" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="folder"/>
 <font SIZE="10"/>
 <node TEXT="/" FOLDED="true" ID="ID_653461184" CREATED="1513822150805" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
@@ -746,7 +757,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Device management" FOLDED="true" POSITION="right" ID="ID_804946115" CREATED="1513085499048" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Device management" FOLDED="true" POSITION="right" ID="ID_804946115" CREATED="1513085499048" MODIFIED="1516110072918" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="executable"/>
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="Disk management" FOLDED="true" ID="ID_947341881" CREATED="1514427463318" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
@@ -892,23 +904,16 @@
 </node>
 </node>
 </node>
-<node TEXT="Account Management" FOLDED="true" POSITION="right" ID="ID_1379008310" CREATED="1515815431680" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Account Management" FOLDED="true" POSITION="right" ID="ID_1379008310" CREATED="1515815431680" MODIFIED="1516110084090" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="male1"/>
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="Each user have his own UID&amp;GID.&#xa;They are stored in /etc/passwd" ID="ID_810850067" CREATED="1515815456118" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="Show UID &amp; GID of a USER" FOLDED="true" ID="ID_1300868297" CREATED="1515815541041" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
+<node TEXT="The main contents of /etc/passwd" FOLDED="true" ID="ID_1958278035" CREATED="1515815627276" MODIFIED="1516107650161" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
-<edge COLOR="#00ffff"/>
-<node TEXT="id USER" ID="ID_1912639526" CREATED="1515815577979" MODIFIED="1515816508373" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
-<font SIZE="10" BOLD="true" ITALIC="true"/>
-</node>
-</node>
-<node TEXT="The main contents of /etc/passwd" FOLDED="true" ID="ID_1958278035" CREATED="1515815627276" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
-<font SIZE="10"/>
-<edge COLOR="#00ffff"/>
 <node TEXT="Each row(User) have 7 columns.&#xa;Each column is seperated by &quot; : &quot;" ID="ID_535227656" CREATED="1515815666980" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
@@ -938,6 +943,13 @@
 <edge COLOR="#00ffff"/>
 </node>
 </node>
+<node TEXT="Show UID &amp; GID of a USER" FOLDED="true" ID="ID_1300868297" CREATED="1515815541041" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<edge COLOR="#00ffff"/>
+<node TEXT="id USER" ID="ID_1912639526" CREATED="1515815577979" MODIFIED="1515816508373" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
 <node TEXT="The main contents of /etc/shadow" FOLDED="true" ID="ID_1854478665" CREATED="1515815937022" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
@@ -945,35 +957,43 @@
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="1.USER Name" ID="ID_1410325003" CREATED="1515816011507" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
+<node TEXT="1.USER Name" ID="ID_1410325003" CREATED="1515816011507" MODIFIED="1516109589959" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="male1"/>
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="2.Password(Hashed)" ID="ID_1301956748" CREATED="1515816029789" MODIFIED="1515816508373" BACKGROUND_COLOR="#cccccc">
+<node TEXT="2.Password(Hashed)" ID="ID_1301956748" CREATED="1515816029789" MODIFIED="1516109601427" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="password"/>
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="3.Date of latest modification of the password" ID="ID_1122814439" CREATED="1515816041304" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
+<node TEXT="3.Date of latest modification of the password" ID="ID_1122814439" CREATED="1515816041304" MODIFIED="1516109611615" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="calendar"/>
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="4.Days(from 3.)before  the pw can be changed again" ID="ID_1063921276" CREATED="1515816067945" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
+<node TEXT="4.Days(from 3.)before  the pw can be changed again" ID="ID_1063921276" CREATED="1515816067945" MODIFIED="1516109630584" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="hourglass"/>
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="5.Days(from 3.)before the pw need to be changed again" ID="ID_10356551" CREATED="1515816102008" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
+<node TEXT="5.Days(from 3.)before the pw need to be changed again" ID="ID_10356551" CREATED="1515816102008" MODIFIED="1516109631584" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="hourglass"/>
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="6.Days(from5.) when user will receive warning for pw renewal" ID="ID_1088448189" CREATED="1515816184838" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
+<node TEXT="6.Days(from5.) when user will receive warning for pw renewal" ID="ID_1088448189" CREATED="1515816184838" MODIFIED="1516109639444" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="hourglass"/>
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="7.Days(from 5.) user can still log in without pw renewal" ID="ID_1043156721" CREATED="1515816219838" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
+<node TEXT="7.Days(from 5.) user can still log in without pw renewal" ID="ID_1043156721" CREATED="1515816219838" MODIFIED="1516109640459" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="hourglass"/>
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="8.Expiration date of an Account" ID="ID_566276443" CREATED="1515816255807" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
+<node TEXT="8.Expiration date of an Account" ID="ID_566276443" CREATED="1515816255807" MODIFIED="1516109648162" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="calendar"/>
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 </node>
@@ -989,8 +1009,138 @@
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
 </node>
+<node TEXT="Accounts" FOLDED="true" ID="ID_1304706235" CREATED="1516108205855" MODIFIED="1516108220746" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="create new accoutn" FOLDED="true" ID="ID_166148642" CREATED="1516108221621" MODIFIED="1516108239481" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<edge COLOR="#00ffff"/>
+<node TEXT="useradd [options] USERNAME" ID="ID_393584184" CREATED="1516108239840" MODIFIED="1516108313903" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
-<node TEXT="BASH" FOLDED="true" POSITION="right" ID="ID_1834051062" CREATED="1514798173770" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
+<node TEXT="-c USER Descriptions(5th column of /etc/passwd)" ID="ID_1574017525" CREATED="1516108381404" MODIFIED="1516108431686" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-G SECONDARY_GROPUS" ID="ID_541727960" CREATED="1516108432233" MODIFIED="1516108483484" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-g GID" ID="ID_131871532" CREATED="1516108484296" MODIFIED="1516108503062" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-u UID" ID="ID_1132179943" CREATED="1516108503687" MODIFIED="1516108508953" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-e YYYY-MM-DD (account expiration date)" ID="ID_1854219572" CREATED="1516108509781" MODIFIED="1516108553000" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-f 0/1 (0: password expire from the beginning)&#xa;          1: password never expire" ID="ID_417657087" CREATED="1516108554172" MODIFIED="1516108640220" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-r (make system account)" ID="ID_1329918449" CREATED="1516108647017" MODIFIED="1516108671549" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="change password" FOLDED="true" ID="ID_119433599" CREATED="1516108687471" MODIFIED="1516108722180" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="passwd (change current user&apos;s pw)" ID="ID_333978448" CREATED="1516108724727" MODIFIED="1516108781589" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="passwd USER (change USER&apos;s pw)" ID="ID_1407086679" CREATED="1516108783011" MODIFIED="1516108803871" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="passwd --STDIN USER (set pw as STDIN)" ID="ID_251418664" CREATED="1516108805043" MODIFIED="1516108864637" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="passwd -l/u USER (Lock/Unlock USER&apos;s account)" ID="ID_328424789" CREATED="1516108866262" MODIFIED="1516108909950" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="passwd -x NUMBER(days before pw expire) USER&#xa;            -i NUMBER(after pw expire, days before account expire )" ID="ID_701236617" CREATED="1516108920810" MODIFIED="1516109159750" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="show USER&apos;s password attributes(expiration dates)" FOLDED="true" ID="ID_139465098" CREATED="1516109197829" MODIFIED="1516109255298" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="chage -l USER" ID="ID_316091500" CREATED="1516109233189" MODIFIED="1516109247486" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="change the attribute of an existing account" FOLDED="true" ID="ID_1884386881" CREATED="1516109256048" MODIFIED="1516109293517" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="usermod [options] USER" ID="ID_564431694" CREATED="1516109295564" MODIFIED="1516109346877" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-c User descriptions(5th column of etc/passwd)" ID="ID_325056077" CREATED="1516109348206" MODIFIED="1516109374081" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-d DIRECTORY (change home directory)" ID="ID_1110384432" CREATED="1516109374987" MODIFIED="1516109399269" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-G SECONDARY_GROUPS" ID="ID_688600858" CREATED="1516109399925" MODIFIED="1516109491176" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-l NEW_USER_NAME (change USER_NAME)" ID="ID_1000708889" CREATED="1516109441457" MODIFIED="1516109490223" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="-u UID (change UID)" ID="ID_2878733" CREATED="1516109492239" MODIFIED="1516109507051" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="delete a user (DANGER!!)" FOLDED="true" ID="ID_572337105" CREATED="1516109512129" MODIFIED="1516109542567" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="userdel -r USER_NAME" ID="ID_1753643615" CREATED="1516109527364" MODIFIED="1516109539489" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="check your own account setting without superuser privilege" FOLDED="true" ID="ID_878450023" CREATED="1516109794321" MODIFIED="1516109878197" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="id(show UID/GID/SELinux settings)" ID="ID_1859230450" CREATED="1516109822665" MODIFIED="1516109883962" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="finger(show personal info of the user)" ID="ID_270117551" CREATED="1516109857384" MODIFIED="1516109884806" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+<node TEXT="Groups" FOLDED="true" ID="ID_1218748723" CREATED="1516107683021" MODIFIED="1516108714789" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="Show group attribute of current user" FOLDED="true" ID="ID_1535125039" CREATED="1516107709771" MODIFIED="1516107742068" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="groups&#xa;output: g1(active group) g2 g3" ID="ID_1085127663" CREATED="1516107751850" MODIFIED="1516107821819" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Switch groups" FOLDED="true" ID="ID_86295167" CREATED="1516107835413" MODIFIED="1516108010197" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="newgrp TARGETGROUP&#xa;ex: original = g1 g2 g3&#xa;input: newgrp g3&#xa;result: g3 g2 g1(switch g3 with g1)" ID="ID_1359683487" CREATED="1516107853023" MODIFIED="1516108007071" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="add new groups" FOLDED="true" ID="ID_1740957895" CREATED="1516108012931" MODIFIED="1516108034353" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="groupadd GROUPNAME" ID="ID_439806984" CREATED="1516108042916" MODIFIED="1516108069916" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="delete group" FOLDED="true" ID="ID_502398166" CREATED="1516108129729" MODIFIED="1516108169683" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="groupdel GROUPNAME" ID="ID_576938207" CREATED="1516108137042" MODIFIED="1516108160730" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="BASH" FOLDED="true" POSITION="right" ID="ID_1834051062" CREATED="1514798173770" MODIFIED="1516110205513" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="bookmark"/>
 <font SIZE="10"/>
 <edge COLOR="#7c0000"/>
 <node TEXT="what is shell" FOLDED="true" ID="ID_1760224810" CREATED="1514798235746" MODIFIED="1515816508389" BACKGROUND_COLOR="#cccccc">
@@ -1443,7 +1593,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Regular Expressions(RE)" FOLDED="true" POSITION="left" ID="ID_749658219" CREATED="1515327297862" MODIFIED="1515816508420" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Regular Expressions(RE)" FOLDED="true" POSITION="left" ID="ID_749658219" CREATED="1515327297862" MODIFIED="1516110149778" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="neutral"/>
 <font SIZE="10"/>
 <edge COLOR="#7c007c"/>
 <node TEXT="concept" FOLDED="true" ID="ID_485001588" CREATED="1515327310675" MODIFIED="1515816508420" BACKGROUND_COLOR="#cccccc">
@@ -1582,7 +1733,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Shell Scripts" FOLDED="true" POSITION="left" ID="ID_731722110" CREATED="1515327274425" MODIFIED="1515816508436" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Shell Scripts" FOLDED="true" POSITION="left" ID="ID_731722110" CREATED="1515327274425" MODIFIED="1516110191138" BACKGROUND_COLOR="#cccccc">
+<icon BUILTIN="launch"/>
 <font SIZE="10"/>
 <edge COLOR="#007c00"/>
 <node TEXT="concept" FOLDED="true" ID="ID_1589173685" CREATED="1515329353792" MODIFIED="1515816508436" BACKGROUND_COLOR="#cccccc">
