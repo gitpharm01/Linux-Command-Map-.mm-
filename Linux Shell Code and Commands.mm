@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="23" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Basic" FOLDED="true" POSITION="right" ID="ID_1806254540" CREATED="1513058775750" MODIFIED="1516249017907" BACKGROUND_COLOR="#cccccc">
 <icon BUILTIN="penguin"/>
 <font SIZE="10"/>
@@ -1031,11 +1031,11 @@
 <edge COLOR="#00ffff"/>
 <node TEXT="Switch to different accounts" FOLDED="true" ID="ID_564463629" CREATED="1516247759094" MODIFIED="1516248872203" BACKGROUND_COLOR="#cccccc">
 <icon BUILTIN="mindmap"/>
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 <node TEXT="su(switch user)&#xa;(need Target user&apos;s password)" FOLDED="true" ID="ID_1130098780" CREATED="1516247815188" MODIFIED="1516248871501" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 <node TEXT="su - (switch to root)" ID="ID_593260245" CREATED="1516247952971" MODIFIED="1516247999456" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
@@ -1047,11 +1047,11 @@
 </node>
 </node>
 <node TEXT="sudo (Switch User and Do)&#xa;(need sudoer privilege and your own pw)" FOLDED="true" ID="ID_43322904" CREATED="1516247864345" MODIFIED="1516248870360" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 <node TEXT="grant sudoer privilege to a USER:&#xa;1.su - (switch to root)&#xa;2.visudo and find &quot;# User privilege specification&quot;&#xa;3.change content as: USER   ALL=(ALL:ALL) ALL&#xa;4.save the file and exit from root" ID="ID_1965172999" CREATED="1516248486036" MODIFIED="1516248869594" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="sudo -u USER COMMAND (switch to USER and do COMMAND)" ID="ID_1836285246" CREATED="1516248298709" MODIFIED="1516248477745" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
@@ -1158,15 +1158,15 @@
 </node>
 </node>
 <node TEXT="show current users in the system" FOLDED="true" ID="ID_879014616" CREATED="1516248893532" MODIFIED="1516248995281" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 <node TEXT="who" ID="ID_978985289" CREATED="1516248949734" MODIFIED="1516248999251" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
 </node>
 <node TEXT="show last login time of all users" FOLDED="true" ID="ID_977405803" CREATED="1516248954298" MODIFIED="1516248994641" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#00ffff"/>
 <font SIZE="10"/>
+<edge COLOR="#00ffff"/>
 <node TEXT="lastlog" ID="ID_459183094" CREATED="1516248987170" MODIFIED="1516248998641" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
@@ -1825,10 +1825,10 @@
 </node>
 </node>
 </node>
-<node TEXT="Basic structure" FOLDED="true" ID="ID_1671118207" CREATED="1515329514919" MODIFIED="1515816508436" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Basic structure" FOLDED="true" ID="ID_1671118207" CREATED="1515329514919" MODIFIED="1516422134673" BACKGROUND_COLOR="#cccccc">
 <icon BUILTIN="executable"/>
 <font SIZE="10"/>
-<node TEXT="#!/bin/bash(shell location)&#xa;#Information of this script&#xa;PATH=.......&#xa;LANG=......(Environmental settings)&#xa;Command1;&#xa;Command2;&#xa;......&#xa;exit n(exit and return a value &quot;n&quot;)" ID="ID_921501997" CREATED="1515329525295" MODIFIED="1515816508436" BACKGROUND_COLOR="#cccccc">
+<node TEXT="#!/bin/bash(shell location)&#xa;#Information of this script&#xa;PATH=.......&#xa;LANG=......(Environmental settings)&#xa;Command1;&#xa;Command2;&#xa;......&#xa;exit n(exit and return a value &quot;n&quot;)" ID="ID_921501997" CREATED="1515329525295" MODIFIED="1516422134673" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
 </node>
 </node>
@@ -2027,6 +2027,112 @@
 <font SIZE="10"/>
 <node TEXT="function FUNC_NAME ()&#xa;{    COMMANDS&#xa;}" ID="ID_797436809" CREATED="1515560732993" MODIFIED="1515816508451" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
+</node>
+</node>
+</node>
+<node TEXT="Task / Schedule management" FOLDED="true" POSITION="left" ID="ID_837678026" CREATED="1516421880998" MODIFIED="1516422989273" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#007c00"/>
+<font SIZE="10"/>
+<node TEXT="There are 2 services for managing personal and system tasks:&#xa;atd:tasks which occurs only once&#xa;crond:tasks which recurs periodically (logwatch,internet config)" ID="ID_950635807" CREATED="1516421935358" MODIFIED="1516422268701" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#007c00"/>
+<font SIZE="10"/>
+</node>
+<node TEXT="atd / at" FOLDED="true" ID="ID_864988859" CREATED="1516422068094" MODIFIED="1516422081610" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#007c00"/>
+<font SIZE="10"/>
+<node TEXT="Task schedule is stored in /var /spool/at" ID="ID_1338772957" CREATED="1516422287998" MODIFIED="1516422320170" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#007c00"/>
+<font SIZE="10"/>
+</node>
+<node TEXT="Privilege settings(2 files available)&#xa;/etc/at.allow: USERS who CAN use at&#xa;/etc/at.deny: USERS who CANNOT use at&#xa;(usually you only use one of above files)" ID="ID_459298744" CREATED="1516422340405" MODIFIED="1516422537407" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#007c00"/>
+<font SIZE="10"/>
+</node>
+<node TEXT="Turn on atd service" FOLDED="true" ID="ID_557886096" CREATED="1516422083438" MODIFIED="1516422099844" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#007c00"/>
+<font SIZE="10"/>
+<node TEXT="systemctl restart/enable atd" ID="ID_1365709946" CREATED="1516422100157" MODIFIED="1516422158309" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="list all your &quot;at&quot; schedule" FOLDED="true" ID="ID_169184308" CREATED="1516422160106" MODIFIED="1516422564002" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#007c00"/>
+<font SIZE="10"/>
+<node TEXT="at -l" ID="ID_682334818" CREATED="1516422565189" MODIFIED="1516422573127" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="create new shedual" FOLDED="true" ID="ID_530480391" CREATED="1516422575517" MODIFIED="1516422705300" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#007c00"/>
+<font SIZE="10"/>
+<node TEXT="at -m [TIME]&#xa;at&gt; COMMAND&#xa;at&gt; (hit ctrl+d to quit)" ID="ID_1205397521" CREATED="1516422596986" MODIFIED="1516422701785" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="[TIME] format:&#xa;HH:MM&#xa;HH:MM YYYY-MM-DD&#xa;now +NUMBER  minutes/hours/days/weeks" ID="ID_890710905" CREATED="1516422720800" MODIFIED="1516422851115" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="delete a chedual" FOLDED="true" ID="ID_696907794" CREATED="1516422855818" MODIFIED="1516422879584" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#007c00"/>
+<font SIZE="10"/>
+<node TEXT="at -d JOBNUMBER" ID="ID_464664855" CREATED="1516422865318" MODIFIED="1516422875037" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="check details of a schedule" FOLDED="true" ID="ID_90855002" CREATED="1516422885396" MODIFIED="1516422914162" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#007c00"/>
+<font SIZE="10"/>
+<node TEXT="at -c JOBNUMBER" ID="ID_1275171805" CREATED="1516422915037" MODIFIED="1516422923725" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+<node TEXT="cron" FOLDED="true" ID="ID_1734991231" CREATED="1516422929147" MODIFIED="1516422999882" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="Personal task schedual is stored in /var/spool/cron/" ID="ID_1532535145" CREATED="1516422934241" MODIFIED="1516422997819" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+</node>
+<node TEXT="Privilege settings(2 files available)&#xa;/etc/cron.allow: USERS who CAN use at&#xa;/etc/cron.deny: USERS who CANNOT use at&#xa;(usually you only use one of above files)" ID="ID_1046755490" CREATED="1516422340405" MODIFIED="1516423028273" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+</node>
+<node TEXT="List all crontab tasks" FOLDED="true" ID="ID_1015716831" CREATED="1516423032492" MODIFIED="1516423049555" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="crontab -l" ID="ID_1872375945" CREATED="1516423049758" MODIFIED="1516423063039" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Edit tasks" FOLDED="true" ID="ID_1906446464" CREATED="1516423065461" MODIFIED="1516423122680" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="crontab -e" ID="ID_205339450" CREATED="1516423076133" MODIFIED="1516423084508" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Fromat of /var/spool/cron" FOLDED="true" ID="ID_1028345056" CREATED="1516423087914" MODIFIED="1516423123540" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="miniutes  hours   days  months  weeks  COMMAND&#xa;0-59        0-23     1-31   1-12       0-7" ID="ID_970832942" CREATED="1516423143024" MODIFIED="1516423551342" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+</node>
+<node TEXT="Special symbols of time&#xa;*  =Every time&#xa;N1,N2,N3  ex:0 3,21 * * * (every 3am,21am)&#xa;N1-N2       ex: 20  8-12 * * * (8:20,9:20,10:20,11:20,12:20)&#xa;/Number    ex:*/5 * * * * (every 5 minutes)" ID="ID_991834352" CREATED="1516423232182" MODIFIED="1516423551998" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+</node>
+</node>
+<node TEXT="System task" FOLDED="true" ID="ID_714646443" CREATED="1516423567686" MODIFIED="1516423628452" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="Settings stored in&#xa;/etc/crontab&#xa;/etc/cronid/*&#xa;/var/spool/cron/*" ID="ID_1620523162" CREATED="1516423584592" MODIFIED="1516423627812" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+</node>
+<node TEXT="Edit /etc/contab with root privilege to add or modify system tasks" ID="ID_700002708" CREATED="1516423629140" MODIFIED="1516423677703" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="Format:&#xa;miniutes  hours   days  months  weeks  USER COMMAND&#xa;0-59        0-23     1-31   1-12       0-7" ID="ID_68653198" CREATED="1516423696406" MODIFIED="1516423732954" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+</node>
+</node>
+<node TEXT="anacron" FOLDED="true" ID="ID_285353692" CREATED="1516423742876" MODIFIED="1516423754016" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+<node TEXT="anacron will check crontab tasks(hourly) and start doing unfinished tasks" ID="ID_1541407751" CREATED="1516423754563" MODIFIED="1516423783251" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10"/>
+</node>
 </node>
 </node>
 </node>
