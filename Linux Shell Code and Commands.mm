@@ -1046,7 +1046,7 @@
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="sudo (Switch User and Do)&#xa;(need sudoer privilege and your own pw)" FOLDED="true" ID="ID_43322904" CREATED="1516247864345" MODIFIED="1516248870360" BACKGROUND_COLOR="#cccccc">
+<node TEXT="sudo (Switch User and Do)&#xa;(need sudoer privilege and your own pw,!!Debian will not have sudo preinstalled!!)" FOLDED="true" ID="ID_43322904" CREATED="1516247864345" MODIFIED="1516248870360" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="grant sudoer privilege to a USER:&#xa;1.su - (switch to root)&#xa;2.visudo and find &quot;# User privilege specification&quot;&#xa;3.change content as: USER   ALL=(ALL:ALL) ALL&#xa;4.save the file and exit from root" ID="ID_1965172999" CREATED="1516248486036" MODIFIED="1516248869594" BACKGROUND_COLOR="#cccccc">
