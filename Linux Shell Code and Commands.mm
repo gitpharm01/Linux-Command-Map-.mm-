@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Linux Shell Code and Commands" FOLDED="false" ID="ID_963954836" CREATED="1513058744765" MODIFIED="1515816512780" BACKGROUND_COLOR="#cccccc" STYLE="oval">
 <font SIZE="12"/>
-<hook NAME="MapStyle" background="#999999" zoom="2.0">
+<hook NAME="MapStyle" background="#999999" zoom="1.5">
     <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="23" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="25" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Basic" FOLDED="true" POSITION="right" ID="ID_1806254540" CREATED="1513058775750" MODIFIED="1516249017907" BACKGROUND_COLOR="#cccccc">
 <icon BUILTIN="penguin"/>
 <font SIZE="10"/>
@@ -1210,7 +1210,177 @@
 </node>
 </node>
 </node>
-<node TEXT="BASH" FOLDED="true" POSITION="right" ID="ID_1834051062" CREATED="1514798173770" MODIFIED="1516110205513" BACKGROUND_COLOR="#cccccc">
+<node TEXT="Process Management" POSITION="right" ID="ID_391126633" CREATED="1516866528558" MODIFIED="1516866563733" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="Concept" ID="ID_381223887" CREATED="1516866542631" MODIFIED="1516866564267" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="Every process have its own PID in the memory" ID="ID_1875583991" CREATED="1516866565254" MODIFIED="1516866590398" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+</node>
+<node TEXT="Different User will create different PID when executing the same binary file" ID="ID_203086277" CREATED="1516866591942" MODIFIED="1516866678961" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+</node>
+<node TEXT="program: Executable Binary Files&#xa;Process: Executed program in the memory." ID="ID_1657936808" CREATED="1516866628806" MODIFIED="1516866677791" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+</node>
+<node TEXT="Parent Process &amp; Fork and exec" ID="ID_1965696324" CREATED="1516866681950" MODIFIED="1516866714727" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node ID="ID_561694937" CREATED="1516866717695" MODIFIED="1516866804118" BACKGROUND_COLOR="#cccccc"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0033">Parent</font>Process[PID=X program=zzz]
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="Fork" ID="ID_1599038017" CREATED="1516866805662" MODIFIED="1516866831167" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+<node TEXT="CashedProcess[PPID=x PID=y program=zzz]" ID="ID_388692585" CREATED="1516866833830" MODIFIED="1516866879366" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+</node>
+<node ID="ID_1622299429" CREATED="1516866884766" MODIFIED="1516866991755" BACKGROUND_COLOR="#cccccc"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0033">exec</font>ute program &quot;qqq&quot;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node ID="ID_514010606" CREATED="1516866919222" MODIFIED="1516867001989" BACKGROUND_COLOR="#cccccc"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0033">Child</font>Process[PPID=x PID=y program=qqq]
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Job Control" ID="ID_142037853" CREATED="1516867028838" MODIFIED="1516867058181" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="Make a background Process" ID="ID_827073412" CREATED="1516867059550" MODIFIED="1516867081693" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="COMMAND + &quot;&amp;&quot;" ID="ID_879007178" CREATED="1516867086022" MODIFIED="1516867100170" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node ID="ID_335398151" CREATED="1516867109189" MODIFIED="1516867223278" BACKGROUND_COLOR="#cccccc"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Will return [Job number]PID
+    </p>
+    <p>
+      Process will <font color="#ff0033">be terminated if you log out</font>!!
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+</node>
+</node>
+<node TEXT="Make a process which keeps running after you log out" ID="ID_1951824070" CREATED="1516867301478" MODIFIED="1516867363053" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="nohup COMMAND (as foreground)" ID="ID_323848709" CREATED="1516867332566" MODIFIED="1516867357741" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="nohub COMMAND &amp;(as background)" ID="ID_36131975" CREATED="1516867372822" MODIFIED="1516867391461" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="STDOUT of the COMMAND will be written in nohup.out" ID="ID_1591596333" CREATED="1516867460886" MODIFIED="1516867487846" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+</node>
+</node>
+<node TEXT="Pause current process and store it in the background" ID="ID_918163504" CREATED="1516867782445" MODIFIED="1516867823736" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="ctrl + Z" ID="ID_809745146" CREATED="1516867826894" MODIFIED="1516867834954" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Check current jobs" ID="ID_1880248229" CREATED="1516867836078" MODIFIED="1516867851349" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="jobs -l (show all jobs number&amp;PID)" ID="ID_442183872" CREATED="1516867852710" MODIFIED="1516867933759" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="jobs -r (show only background jobs)" ID="ID_653514240" CREATED="1516867935750" MODIFIED="1516867954113" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+<node TEXT="jobs -s (show only stopped jobs)" ID="ID_1615321388" CREATED="1516867954917" MODIFIED="1516867976281" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Turn a background job into a Foreground job" ID="ID_681284337" CREATED="1516867984597" MODIFIED="1516868003941" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="fg %JOBNUMBER" ID="ID_1929198060" CREATED="1516868004510" MODIFIED="1516868051211" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+<node TEXT="Restart a Stopped Background job" ID="ID_1223806355" CREATED="1516868094821" MODIFIED="1516868126882" BACKGROUND_COLOR="#cccccc">
+<edge COLOR="#00ffff"/>
+<font SIZE="10"/>
+<node TEXT="bg %JOBNUMBER" ID="ID_1257707540" CREATED="1516868004510" MODIFIED="1516868314622" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
+<font SIZE="10" BOLD="true" ITALIC="true"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="BASH" POSITION="right" ID="ID_1834051062" CREATED="1514798173770" MODIFIED="1516110205513" BACKGROUND_COLOR="#cccccc">
 <icon BUILTIN="bookmark"/>
 <font SIZE="10"/>
 <edge COLOR="#7c0000"/>
@@ -2031,40 +2201,40 @@
 </node>
 </node>
 <node TEXT="Task / Schedule management" FOLDED="true" POSITION="left" ID="ID_837678026" CREATED="1516421880998" MODIFIED="1516422989273" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#007c00"/>
 <font SIZE="10"/>
+<edge COLOR="#007c00"/>
 <node TEXT="There are 2 services for managing personal and system tasks:&#xa;atd:tasks which occurs only once&#xa;crond:tasks which recurs periodically (logwatch,internet config)" ID="ID_950635807" CREATED="1516421935358" MODIFIED="1516422268701" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#007c00"/>
 <font SIZE="10"/>
+<edge COLOR="#007c00"/>
 </node>
 <node TEXT="atd / at" FOLDED="true" ID="ID_864988859" CREATED="1516422068094" MODIFIED="1516422081610" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#007c00"/>
 <font SIZE="10"/>
+<edge COLOR="#007c00"/>
 <node TEXT="Task schedule is stored in /var /spool/at" ID="ID_1338772957" CREATED="1516422287998" MODIFIED="1516422320170" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#007c00"/>
 <font SIZE="10"/>
+<edge COLOR="#007c00"/>
 </node>
 <node TEXT="Privilege settings(2 files available)&#xa;/etc/at.allow: USERS who CAN use at&#xa;/etc/at.deny: USERS who CANNOT use at&#xa;(usually you only use one of above files)" ID="ID_459298744" CREATED="1516422340405" MODIFIED="1516422537407" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#007c00"/>
 <font SIZE="10"/>
+<edge COLOR="#007c00"/>
 </node>
 <node TEXT="Turn on atd service" FOLDED="true" ID="ID_557886096" CREATED="1516422083438" MODIFIED="1516422099844" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#007c00"/>
 <font SIZE="10"/>
+<edge COLOR="#007c00"/>
 <node TEXT="systemctl restart/enable atd" ID="ID_1365709946" CREATED="1516422100157" MODIFIED="1516422158309" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
 </node>
 <node TEXT="list all your &quot;at&quot; schedule" FOLDED="true" ID="ID_169184308" CREATED="1516422160106" MODIFIED="1516422564002" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#007c00"/>
 <font SIZE="10"/>
+<edge COLOR="#007c00"/>
 <node TEXT="at -l" ID="ID_682334818" CREATED="1516422565189" MODIFIED="1516422573127" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
 </node>
 <node TEXT="create new shedual" FOLDED="true" ID="ID_530480391" CREATED="1516422575517" MODIFIED="1516422705300" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#007c00"/>
 <font SIZE="10"/>
+<edge COLOR="#007c00"/>
 <node TEXT="at -m [TIME]&#xa;at&gt; COMMAND&#xa;at&gt; (hit ctrl+d to quit)" ID="ID_1205397521" CREATED="1516422596986" MODIFIED="1516422701785" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
@@ -2073,15 +2243,15 @@
 </node>
 </node>
 <node TEXT="delete a chedual" FOLDED="true" ID="ID_696907794" CREATED="1516422855818" MODIFIED="1516422879584" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#007c00"/>
 <font SIZE="10"/>
+<edge COLOR="#007c00"/>
 <node TEXT="at -d JOBNUMBER" ID="ID_464664855" CREATED="1516422865318" MODIFIED="1516422875037" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
 </node>
 <node TEXT="check details of a schedule" FOLDED="true" ID="ID_90855002" CREATED="1516422885396" MODIFIED="1516422914162" BACKGROUND_COLOR="#cccccc">
-<edge COLOR="#007c00"/>
 <font SIZE="10"/>
+<edge COLOR="#007c00"/>
 <node TEXT="at -c JOBNUMBER" ID="ID_1275171805" CREATED="1516422915037" MODIFIED="1516422923725" COLOR="#ff0000" BACKGROUND_COLOR="#cccccc">
 <font SIZE="10" BOLD="true" ITALIC="true"/>
 </node>
